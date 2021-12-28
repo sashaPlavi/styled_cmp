@@ -11,7 +11,7 @@ export default function header() {
             <Container>
           <Nav>
               <Logo src='./images/logo.svg' />
-              <Button bg='red'>Try it free</Button>
+              <Button>Try it free</Button>
           </Nav>
           <Flex>
               <div>
