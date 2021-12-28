@@ -12,3 +12,9 @@ justify-content: space-between;
 margin-bottom:40px;
 `
 export const Logo = styled.img``
+
+export const Image = styled.img`
+width:350px;
+margin-left: 40px;
+
+`
