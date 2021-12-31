@@ -6,6 +6,7 @@
  import {Theme} from './components/styles/Theme.stiled'
  import GlobalStyles from './components/styles/Global.styled';
  import content from './content';
+ import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Card key={index} item={item} />
     ))}
     </Container>
+    <Footer/>
     </>
     </ThemeProvider>
   );
