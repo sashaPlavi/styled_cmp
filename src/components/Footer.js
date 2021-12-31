@@ -1,12 +1,12 @@
 import { Container } from './styles/Container.styled'
 import { Flex } from './styles/Flex.styled'
+import { StyledFooter } from './styles/Footer.styled'
 
 export default function Footer() {
     return (
-        <div>
+        <StyledFooter>
             <Container>
                 <img src='./images/logo_white.svg' alt='pic' />
-            </Container>
             <Flex>
             <ul>
             <li>
@@ -28,8 +28,9 @@ export default function Footer() {
             <li>Contact Us</li>
           </ul>
          
-        <p>&copy; 2021 Huddle. All rights reserved</p>
             </Flex>
-        </div>
+        <p>&copy; 2021 Huddle. All rights reserved</p>
+            </Container>
+        </StyledFooter>
     )
 }
