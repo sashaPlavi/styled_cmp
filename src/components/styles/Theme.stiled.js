@@ -5,4 +5,5 @@ export const Theme ={
         body:'#fff',
         footer:'#0003333'
     },
+    mobile: '768px',
 }
